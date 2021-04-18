@@ -21,4 +21,11 @@ $(document).ready(function () {
         $('.cartas').toggle()
     });
 
+    //cambiar color h2
+
+    $("h2").on("click", function () {
+        $(this).css("color", "#17A2B8");
+    });
+
+
 });
