@@ -13,7 +13,12 @@ $(document).ready(function () {
             });
         }
     });
-        //tooltip
-        $('[data-toggle="tooltip"]').tooltip()
+    //tooltip
+    $('[data-toggle="tooltip"]').tooltip()
+
+    // toggle 
+    $('#destacados').on('dblclick', 'h2', function () {
+        $('.cartas').toggle()
+    });
 
 });
