@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+.navbar-brand img {
+    width: 30px;
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 25px;
+}
+
+hr {
+    height: 2px;
+    }
+
+.icono {
+    border-radius: 5px;
+}
+
+.card {
+    min-height: 400px;
+}
+
+.card img {
+    height: 10rem;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.redes {
+    min-width: none;
+}
+
+footer ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+
