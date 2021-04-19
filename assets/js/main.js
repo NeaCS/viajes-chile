@@ -27,5 +27,12 @@ $(document).ready(function () {
         $(this).css("color", "#17A2B8");
     });
 
+    // cambiar color navbar con scroll
+
+    $(document).scroll(function () {
+        var $nav = $(".navbar");
+        var $carousel = $("#carouselExampleControls")
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $carousel.height());
+    });
 
 });

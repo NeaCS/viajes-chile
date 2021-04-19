@@ -50,6 +50,10 @@ footer ul li {
     display: inline-block;
     text-decoration: none;
 }
+.navbar.scrolled {
+    background-color: #17A2B8 !important;
+    transition: background-color 200ms linear;
+}
 
 
 
